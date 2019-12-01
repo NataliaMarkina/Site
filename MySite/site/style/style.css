@@ -1,0 +1,84 @@
+﻿﻿﻿﻿﻿.footer {
+    position: relative;
+    z-index: 1000;
+}
+
+ul {
+    display: table;
+    width: 95%;
+    margin: 0 0 10px 25px;
+}
+
+li {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'HelvetiThin';
+}
+
+.telephone {
+    font-family: 'DinCy';
+    font-size: 20px;
+}
+
+.address {
+    font-family: 'DinCy';
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.screen {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background: url(../img/wpid-post_8909_image.jpg) no-repeat scroll center 0px / cover;
+}
+
+.screen h3 {
+    font-size: 30px;
+    font-family: 'HelvetiThin';
+    line-height: 40px;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+.screen h2 {
+    font-size: 48px;
+    font-family: 'HelvetiThin';
+    line-height: 70px;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+.main-block h3 {
+    font-weight: bold;
+}
+
+.zaiavka {
+    background: #1e8fc8;
+    border: none;
+    border-bottom: 2px solid #1378b7;
+    box-shadow: 2px 2px 3px #ccc;
+    margin-left: 5px;
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px;
+    color: white !Important;
+    text-decoration: none !important;
+}
+
+.main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59e935c2-39bc-4a1f-8647-08c730872be4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/bundle.js" />
+        <option value="$PROJECT_DIR$/site/js/index.js" />
+        <option value="$PROJECT_DIR$/site/style/ыенду.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.babeIrc.js" />
+        <option value="$PROJECT_DIR$/.babeIrc" />
+        <option value="$PROJECT_DIR$/site/index.js" />
+        <option value="$PROJECT_DIR$/site/style/style.css" />
+        <option value="$PROJECT_DIR$/site/index.html" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/site/app/components/Stock.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/All.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Maps.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Footer.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Information.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/About.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/MainTherapy.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Services.vue" />
+        <option value="$PROJECT_DIR$/site/app/post.php" />
+        <option value="$PROJECT_DIR$/site/app/components/Popup.vue" />
+        <option value="$PROJECT_DIR$/site/app/vaccination.html" />
+        <option value="$PROJECT_DIR$/site/app/pediatrics.html" />
+        <option value="$PROJECT_DIR$/site/app/endocrinology.html" />
+        <option value="$PROJECT_DIR$/site/app/allergology.html" />
+        <option value="$PROJECT_DIR$/site/app/ecg.html" />
+        <option value="$PROJECT_DIR$/site/app/urology.html" />
+        <option value="$PROJECT_DIR$/site/app/ultrasound.html" />
+        <option value="$PROJECT_DIR$/site/app/gynecology.html" />
+        <option value="$PROJECT_DIR$/site/app/app1.js" />
+        <option value="$PROJECT_DIR$/site/app/app.js" />
+        <option value="$PROJECT_DIR$/site/app/components/Header.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Therapy.vue" />
+        <option value="$PROJECT_DIR$/site/app/index.html" />
+        <option value="$PROJECT_DIR$/site/app/therapy.html" />
+        <option value="$PROJECT_DIR$/site/app/style.css" />
+        <option value="$PROJECT_DIR$/site/app/components/Main.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Screen.vue" />
+        <option value="$PROJECT_DIR$/site/app/components/Menu.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1U0mSMeBDKKWzy87iB6nL1DdgAc" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59e935c2-39bc-4a1f-8647-08c730872be4" name="Default Changelist" comment="" />
+      <created>1574501886594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574501886594</updated>
+      <workItem from="1574501890392" duration="1923000" />
+      <workItem from="1574537804095" duration="3663000" />
+      <workItem from="1574582685239" duration="5630000" />
+      <workItem from="1574591694886" duration="422000" />
+      <workItem from="1574616274061" duration="11025000" />
+      <workItem from="1574682165371" duration="14851000" />
+      <workItem from="1574704751946" duration="8088000" />
+      <workItem from="1574796261494" duration="7563000" />
+      <workItem from="1574870223419" duration="12680000" />
+      <workItem from="1574942410997" duration="4434000" />
+      <workItem from="1574973784364" duration="3237000" />
+      <workItem from="1574978457454" duration="612000" />
+      <workItem from="1575206877170" duration="15110000" />
+      <workItem from="1575223064832" duration="2557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

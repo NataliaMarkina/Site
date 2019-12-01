@@ -1,0 +1,193 @@
+﻿body {
+    margin: 0;
+}
+.therapy {
+    padding: 0;
+}
+.therapy:before, .therapy:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.therapy:after {
+    clear: both;
+}
+.main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ul {
+    display: table;
+    width: 95%;
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+li {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.zaiavka {
+    position: relative;
+    padding: 10px 0;
+}
+.zaiavka > p {
+    font-family: 'DinCy';
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    vertical-align: middle;
+    margin: 0 0 10px;
+}
+.address {
+    font-size: 12px;
+    color: #a0a0a0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.menu {
+    min-width: 327px;
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+}
+.img {
+    background: url(/site/app/img/therapy.jpg) top center no-repeat;
+    position: relative;
+    padding: 50px 0 20px;
+    background-size: cover !important;
+}
+.text {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+h3 {
+    font-size: 48px;
+    color: #fff;
+    line-height: 55px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000;
+}
+.text > p {
+    font-size: 24px;
+    color: #fff;
+    line-height: 26px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000;
+    margin: 0 0 10px;
+}
+.uslugi {
+    position: relative;
+    padding: 50px 0 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+}
+.uslugi > h2 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.table {
+    width: 100%;
+}
+th {
+    font-size: 24px;
+    font-family: 'HelvetiThin';
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid #b8b4d4;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px dotted #b8b4d4;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+button {
+    right: 0;
+    color: #0aa245;
+    border: 1px solid #0aa245;
+    background: none;
+    margin-left: 5px;
+}
+span {
+    line-height: 26px;
+}
+em {
+    display: inline-block;
+    width: 30px;
+    border: 1px solid #b8b4d4;
+    height: 20px;
+    font-size: 14px;
+    color: #b8b4d4;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    font-style: normal;
+    padding: 5px 0;
+}
+.doctor {
+    position: relative;
+    padding: 0 0 50px;
+}
+.main > h2 {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+.row-fluid {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+    width: 100%;
+    overflow: hidden;
+}
+.item {
+    width: 23%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+.foto {
+    position: relative;
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+h5 {
+    font-size: 24px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    line-height: 30px;
+    margin: 15px 0 5px;
+}
+.information > a {
+    font-size: 18px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    text-decoration: underline;
+    color: #2e84b0;
+}

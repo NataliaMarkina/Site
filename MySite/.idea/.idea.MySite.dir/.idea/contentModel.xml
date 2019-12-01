@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Natasha\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Natasha\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Natasha\RiderProjects\MySite" t="IncludeFlat">
+      <e p="node_modules\@babel\cli" t="IncludeRecursive" />
+      <e p="node_modules\@babel\core" t="IncludeRecursive" />
+      <e p="node_modules\@babel\preset-env" t="IncludeRecursive" />
+      <e p="node_modules\@types" t="IncludeRecursive">
+        <e p="events" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+      </e>
+      <e p="node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
+      <e p="node_modules\axios" t="IncludeRecursive" />
+      <e p="node_modules\babel-loader" t="IncludeRecursive" />
+      <e p="node_modules\bezier-easing" t="IncludeRecursive" />
+      <e p="node_modules\bootstrap-vue" t="IncludeRecursive" />
+      <e p="node_modules\chalk" t="IncludeRecursive" />
+      <e p="node_modules\commander" t="IncludeRecursive" />
+      <e p="node_modules\css-loader" t="IncludeRecursive" />
+      <e p="node_modules\file-loader" t="IncludeRecursive" />
+      <e p="node_modules\html-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules\popper.js" t="IncludeRecursive" />
+      <e p="node_modules\portal-vue" t="IncludeRecursive" />
+      <e p="node_modules\postcss" t="IncludeRecursive" />
+      <e p="node_modules\postcss-selector-parser" t="IncludeRecursive" />
+      <e p="node_modules\router-link" t="IncludeRecursive" />
+      <e p="node_modules\source-map" t="IncludeRecursive" />
+      <e p="node_modules\terser" t="IncludeRecursive" />
+      <e p="node_modules\url-loader" t="IncludeRecursive" />
+      <e p="node_modules\vue" t="IncludeRecursive" />
+      <e p="node_modules\vue-dynamic" t="IncludeRecursive" />
+      <e p="node_modules\vue-functional-data-merge" t="IncludeRecursive" />
+      <e p="node_modules\vue-loader" t="IncludeRecursive" />
+      <e p="node_modules\vue-router" t="IncludeRecursive" />
+      <e p="node_modules\vue-scrollactive" t="IncludeRecursive" />
+      <e p="node_modules\vue-scrollto" t="IncludeRecursive" />
+      <e p="node_modules\vue-social-sharing" t="IncludeRecursive" />
+      <e p="node_modules\vue-template-compiler" t="IncludeRecursive" />
+      <e p="node_modules\vue-use" t="IncludeRecursive" />
+      <e p="node_modules\vue-yandex-maps" t="IncludeRecursive" />
+      <e p="node_modules\webpack" t="IncludeRecursive" />
+      <e p="node_modules\webpack-cli" t="IncludeRecursive" />
+      <e p="node_modules\webpack-dev-server" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
