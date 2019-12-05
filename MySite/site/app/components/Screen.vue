@@ -24,8 +24,6 @@
 </template>
 
 <script>
-    import Popup from "./Popup.vue";
-    
     export default {
         name: "Screen",
         data() {
@@ -34,9 +32,6 @@
                 image: "./site/app/img/point.png",
                 showModal: false
             }
-        },
-        components: {
-            Popup
         }
     }
 </script>

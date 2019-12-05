@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="maps">
+    <div id="maps" class="maps">
         <h2>Карта</h2>
         <yandex-map
                 :settings="settings"

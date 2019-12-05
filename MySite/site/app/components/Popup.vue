@@ -43,7 +43,7 @@
         },
         methods: {
             setData() {
-                axios.post('post.php', {
+                axios.post('send.php', {
                     'name': this.name,
                     'number': this.email
                 }).then(response => {

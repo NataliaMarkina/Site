@@ -1,15 +1,15 @@
 ﻿<template>
-    <div class="main">
+    <div id="main" class="main">
         <div class="row-fluid">
             <ul>
                 <li>
-                    <router-link to="/">
+                    <a href="/" @click="location.reload()">
                         <img :src="image" alt="logo">
-                    </router-link>
+                    </a>
                 </li>
                 <li class="menu">
                     
-                    <router-link to="#about" @click="scroll(0, 400)">О CMD</router-link>
+                    <router-link to="#about">О CMD</router-link>
                     <router-link to="#services">Услуги</router-link>
                     <router-link to="#stock">Акции</router-link>
                     <router-link to="#maps">Контакты</router-link>
@@ -32,32 +32,14 @@
 </template>
 
 <script>
-    import Main from "./Main.vue"
-    import Services from "./Services.vue"
-    import About from "./About.vue"
-    import Stock from "./Stock.vue"
-    import Maps from "./Maps.vue"
     import VueRouter from 'vue-router'
     import Vue from 'vue'
-    import use from 'vue-use'
-    import VueScrollactive from 'vue-scrollactive'
-    import ScrollSpy from 'vue-scrollactive'
     
     Vue.use(VueRouter);
-    Vue.use(VueScrollactive);
-    Vue.use(ScrollSpy);
     
-    const routes = [
-        { path: '/', component: Main },
-        { path: '/services', component: Services},
-        { path: '/about', component: About },
-        { path: '/stock', component: Stock },
-        { path: '/maps', component: Maps }
-    ];
-
     const router = new VueRouter({
         mode: 'history',
-        routes: routes,
+        routes: [],
         scrollBehavior (to, from, savedPosition) {
             if (to.hash) {
                 return { selector: to.hash }
@@ -75,13 +57,6 @@
             return {
                 image: "./site/app/img/logo.png"
             }
-        },
-        components: {
-            Main,
-            Services,
-            About,
-            Stock,
-            Maps
         },
         router: router,
         methods: {

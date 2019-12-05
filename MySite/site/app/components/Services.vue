@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="services">
+    <div id="services" class="services">
         <h2>
             <span>Услуги</span>
         </h2>
@@ -8,21 +8,21 @@
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Терапия</a>    
+                    <a href="/site/app/therapy.html">Терапия</a>    
                 </p>
                 <p>Диагностика, лечение и профилактика общих заболеваний .</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Вакцинация</a>
+                    <a href="/site/app/vaccination.html">Вакцинация</a>
                 </p>
                 <p>Введение в организм человека антигенного вещества, способного вызвать иммунитет к определенной болезни</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Педиатрия</a>
+                    <a href="/site/app/pediatrics.html">Педиатрия</a>
                 </p>
                 <p>Диагностика, лечение и профилактика заболеваний детей от рождения до 18 лет</p>
             </div>
@@ -32,21 +32,21 @@
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Гинекология</a>
+                    <a href="/site/app/gynecology.html">Гинекология</a>
                 </p>
                 <p>Диагностика и лечение заболеваний женской репродуктивной системы</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">УЗИ</a>
+                    <a href="/site/app/ultrasound.html">УЗИ</a>
                 </p>
                 <p>Ультразвуковая диагностика заболеваний</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Урология</a>
+                    <a href="/site/app/urology.html">Урология</a>
                 </p>
                 <p>Диагностика и лечение заболеваний мочевой системы</p>
             </div>
@@ -55,21 +55,21 @@
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">ЭКГ, ЭЭГ</a>
+                    <a href="/site/app/ecg.html">ЭКГ, ЭЭГ</a>
                 </p>
                 <p>Функциональная диагностика заболеваний</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Аллергология/Иммунология</a>
+                    <a href="/site/app/allergology.html">Аллергология/Иммунология</a>
                 </p>
                 <p>Диагностика, лечение и профилактика аллергических реакций и заболеваний</p>
             </div>
             <div class="span4">
                 <p>
                     <em :style="{ backgroundImage: `url('${image}')` }"></em>
-                    <a href="">Эндокринология</a>
+                    <a href="/site/app/endocrinology.html">Эндокринология</a>
                 </p>
                 <p>Диагностика заболеваний желез внутренней секреции (эндокринных желез).</p>
             </div>
@@ -94,27 +94,20 @@
 <script>
     import VueRouter from 'vue-router'
     import Vue from 'vue'
-    import use from 'vue-use'
-    import { BLink } from 'bootstrap-vue'
-    
-    Vue.component('b-link', BLink);
 
     Vue.use(VueRouter);
 
-    const routes = [
-    ];
-
     const router = new VueRouter({
         mode: 'history',
-        routes: routes
+        routes: []
     });
-    
+
+
     export default {
         name: "Services",
         data() {
             return {
-                image: "./site/app/img/services.jpg",
-                path: "/therapy.html"
+                image: "./site/app/img/services.jpg"
             }
         },
         router: router

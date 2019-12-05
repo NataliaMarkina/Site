@@ -25,19 +25,13 @@
 </template>
 
 <script>
-    import Popup from "./Popup.vue";
-    
     export default {
         name: "Information",
         data () {
             return {
                 image: "./site/app/img/img_op.png",
                 imageMob: "./site/app/img/mob_image.png",
-                showModal: false
             }
-        },
-        components: {
-            Popup
         }
     }
 </script>

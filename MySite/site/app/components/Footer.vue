@@ -51,20 +51,14 @@
 </template>
 
 <script>
-    import SocialSharing from 'vue-social-sharing';
-    
     export default {
         name: "Footer",
         data () {
             return {
                 image: "./site/app/img/adv1.jpg",
                 image1: "./site/app/img/hit.gif",
-                image3: "./site/app/img/vk.jpg",
                 imageBg: "./site/app/img/icon.png"
             }
-        },
-        components: {
-            SocialSharing
         }
     }
 </script>

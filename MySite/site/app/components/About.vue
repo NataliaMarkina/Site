@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="about" :style="{ backgroundImage: `url('${image}')` }">
+    <div id="about" class="about" :style="{ backgroundImage: `url('${image}')` }">
         <div class="main">
             <h2>
                 <b>CMD</b>

@@ -8,19 +8,41 @@
                 <p>Полный спектр исследований и анализов</p>
             </div>
             <div class="button-zaiavka">
-                <a href="">Услуги</a>
+                <router-link to="#services">Услуги</router-link>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import VueRouter from 'vue-router'
+    import Vue from 'vue'
+    
+    Vue.use(VueRouter);
+
+    const router = new VueRouter({
+        mode: 'history',
+        routes: [],
+        scrollBehavior (to, from, savedPosition) {
+            if (to.hash) {
+                return { selector: to.hash }
+            } else if (savedPosition) {
+                return savedPosition;
+            } else {
+                return { x: 0, y: 0 }
+            }
+        }
+    });
+    
     export default {
         name: "All",
         data () {
             return {
                image: "./site/app/img/all.png" 
             }
+        },
+        components: {
+            router: router
         }
     }
 </script>

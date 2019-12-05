@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="stock">
+    <div id="stock" class="stock">
         <h2>Акции</h2>
         <div class="main">
             <div class="row-fluid">

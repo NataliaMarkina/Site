@@ -3,41 +3,41 @@
         <div class="main">
             <ul>
                 <li>
-                    <a href="">
+                    <router-link to="#main">
                         <img :src="imageLogo" alt="">
-                    </a>
+                    </router-link>
                 </li>
                 <li>
                     <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Терапия</a>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/therapy.html">Терапия</a>
                     </p>
                     <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Вакцинация</a>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/vaccination.html">Вакцинация</a>
                     </p>
                     <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Педиатрия</a>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/pediatrics.html">Педиатрия</a>
                     </p>
                     <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Гинекология</a>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">УЗИ</a>
-                    </p>
-                    <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Урология</a>
-                    </p>
-                    <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">ЭКГ,ЭЭГ</a>
-                    </p>
-                    <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Аллергология/Иммунология</a>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/gynecology.html">Гинекология</a>
                     </p>
                 </li>
                 <li>
                     <p>
-                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="">Эндокринология</a>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/ultrasound.html">УЗИ</a>
+                    </p>
+                    <p>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/urology.html">Урология</a>
+                    </p>
+                    <p>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/ecg.html">ЭКГ,ЭЭГ</a>
+                    </p>
+                    <p>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/allergology.html">Аллергология/Иммунология</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <em :style="{ backgroundImage: `url('${image}')` }"></em><a href="/site/app/endocrinology.html">Эндокринология</a>
                     </p>
                 </li>
                 <li>
@@ -69,6 +69,25 @@
 </template>
 
 <script>
+    import VueRouter from 'vue-router'
+    import Vue from 'vue'
+
+    Vue.use(VueRouter);
+
+    const router = new VueRouter({
+        mode: 'history',
+        routes: [],
+        scrollBehavior (to, from, savedPosition) {
+            if (to.hash) {
+                return { selector: to.hash }
+            } else if (savedPosition) {
+                return savedPosition;
+            } else {
+                return { x: 0, y: 0 }
+            }
+        }
+    });
+
     export default {
         name: "Menu",
         data () {
@@ -76,7 +95,8 @@
                 imageLogo: "./site/app/img/logo2.png",
                 image: "./site/app/img/services.jpg"
             }
-        }
+        },
+        router: router
     }
 </script>
 

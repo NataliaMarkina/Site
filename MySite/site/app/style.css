@@ -12,18 +12,19 @@
 .therapy:after {
     clear: both;
 }
+
 .main {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
 }
-ul {
+.main ul {
     display: table;
     width: 95%;
     padding: 0;
     margin: 0 0 10px 25px;
 }
-li {
+.main li {
     display: table-cell;
     vertical-align: middle;
     line-height: 20px;
@@ -32,7 +33,7 @@ li {
     position: relative;
     padding: 10px 0;
 }
-.zaiavka > p {
+.main p {
     font-family: 'DinCy';
     font-size: 20px;
     position: relative;
@@ -44,10 +45,10 @@ li {
     font-size: 12px;
     color: #a0a0a0;
 }
-a {
+.main a {
     text-decoration: none;
 }
-a:hover {
+.main a:hover {
     text-decoration: underline;
 }
 .menu {
@@ -56,27 +57,56 @@ a:hover {
     padding: 10px 0;
     text-align: center;
 }
+
 .img {
-    background: url(/site/app/img/therapy.jpg) top center no-repeat;
     position: relative;
     padding: 50px 0 20px;
     background-size: cover !important;
+    height: content-box;
 }
-.text {
+.therapy {
+    background: url(/site/app/img/urologia.png) top center no-repeat;
+}
+.vaccination {
+    background: url(/site/app/img/vaktsina.png) top center no-repeat;
+}
+.pediatrics {
+    background: url(/site/app/img/pediatriya.png) top center no-repeat;
+}
+.gynecology {
+    background: url(/site/app/img/ginec.png) top center no-repeat;
+}
+.ultrasound {
+    background: url(/site/app/img/uzi.png) top center no-repeat;
+}
+.urology {
+    background: url(/site/app/img/urologia.png) top center no-repeat;
+}
+.ecg {
+    background: url(/site/app/img/eeg-ekg.png) top center no-repeat;
+}
+.allergology {
+    background: url(/site/app/img/allergologiya.jpg) top center no-repeat;
+}
+.endocrinology {
+    background: url(/site/app/img/endokrinolodiya.jpg) top center no-repeat;
+}
+.img .text {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
-h3 {
+.img h3 {
     font-size: 48px;
     color: #fff;
     line-height: 55px;
     font-family: 'HelvetiThin';
     font-weight: 100;
     text-shadow: 1px 1px 1px #000;
+    margin: 10px 0;
 }
-.text > p {
+.img p {
     font-size: 24px;
     color: #fff;
     line-height: 26px;
@@ -85,25 +115,26 @@ h3 {
     text-shadow: 1px 1px 1px #000;
     margin: 0 0 10px;
 }
+
 .uslugi {
     position: relative;
     padding: 50px 0 50px;
     max-width: 1000px;
     margin: 0 auto;
 }
-h2 {
+.uslugi h2 {
     text-align: center;
     font-family: 'HelvetiThin';
     font-weight: 100;
 }
-.uslugi > h2 {
+.uslugi h2 {
     font-size: 50px;
     line-height: 60px;
 }
 .table {
     width: 100%;
 }
-th {
+.table th {
     font-size: 24px;
     font-family: 'HelvetiThin';
     font-weight: 600;
@@ -111,26 +142,30 @@ th {
     border-bottom: 2px solid #b8b4d4;
     padding: 10px;
 }
-td {
+.table td {
     padding: 10px;
     font-size: 16px;
     border-bottom: 1px dotted #b8b4d4;
 }
-a {
+.table td:last-child {
+    width: 20%;
+}
+.table .btn-priem {
     color: #000;
     text-decoration: none;
 }
-button {
+.table .btn-sign-up {
     right: 0;
     color: #0aa245;
     border: 1px solid #0aa245;
     background: none;
     margin-left: 5px;
+    cursor: pointer;
 }
-span {
+.uslugi span {
     line-height: 26px;
 }
-em {
+.uslugi em {
     display: inline-block;
     width: 30px;
     border: 1px solid #b8b4d4;
@@ -143,51 +178,584 @@ em {
     font-style: normal;
     padding: 5px 0;
 }
+
 .doctor {
     position: relative;
     padding: 0 0 50px;
 }
-.main > h2 {
+.doctor .main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.doctor h2 {
     font-size: 50px;
     line-height: 55px;
-    margin-bottom: 40px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0 40px;
 }
 .row-fluid {
-    position: relative;
-    margin-bottom: 20px;
-    line-height: 1;
     width: 100%;
-    overflow: hidden;
+}
+.row-fluid [class="item"]:first-child {
+    margin-left: 0;
 }
 .item {
     width: 23%;
     display: block;
     float: left;
     box-sizing: border-box;
-    margin-left: 0;
+    margin-left: 2%;
 }
 .foto {
     position: relative;
     width: 100%;
 }
-img {
+.doctor img {
     width: 100%;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
     border: 0;
 }
-h5 {
+.doctor h5 {
     font-size: 24px;
     font-family: 'HelvetiThin';
     font-weight: 100;
     line-height: 30px;
     margin: 15px 0 5px;
 }
-.information > a {
+.doctor a {
     font-size: 18px;
     font-family: 'HelvetiThin';
     font-weight: 100;
     text-decoration: underline;
     color: #2e84b0;
+}
+
+.request {
+    margin: 50px 0;
+}
+.request h2 {
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    font-size: 42px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 0 20px;
+}
+.information {
+    position: relative;
+    border: 2px solid #0aa245;
+    margin: 80px auto;
+    padding: 30px 0;
+    max-width: 1000px;
+}
+.row-fluid:before, .row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.row-fluid:after {
+    clear: both;
+}
+.image-admin {
+    margin-left: 0;
+    width: 23.404255319148934%;
+    display: block;
+    float: left;
+    min-height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.inf {
+    width: 40.42553191489362%;
+    display: block;
+    float: left;
+    min-height: 30px;
+    margin-left: 2.127659574468085%;
+    box-sizing: border-box;
+}
+.request p {
+    font-size: 18px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    margin: 0 0 10px;
+}
+.request h4 {
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 26px;
+    margin: 50px 0 10px;
+}
+.numbers {
+    width: 31.914893617021278%;
+    display: block;
+    float: left;
+    min-height: 30px;
+    margin-left: 2.127659574468085%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: center;
+}
+.request img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.request h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.stock {
+    margin: 50px 0;
+}
+.stock h2 {
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.stock .main {
+    position: relative;
+    margin: 10px auto 80px auto;
+    padding: 30px 0;
+    max-width: 1000px;
+}
+.stock h1 {
+    font-size: 38.5px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    text-align: center;
+}
+.stock img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    width: 128px;
+}
+.stock .text {
+    text-align: center;
+    display: block;
+    float: left;
+    min-height: 30px;
+    box-sizing: border-box;
+    margin-left: 0;
+    width: 100%;
+}
+.stock p {
+    font-size: 18px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    margin: 0 0 10px;
+    color: black;
+    text-align: center;
+}
+.red {
+    color: red;
+}
+
+.maps {
+    text-align: center;
+}
+.maps h2 {
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    font-size: 42px;
+    line-height: 40px;
+    margin: 10px 0 40px 0;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.menu {
+    position: relative;
+    margin: 20px 0 40px;
+}
+.menu .main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.menu ul {
+    display: table;
+    width: 94%;
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+.menu li {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 5px;
+    line-height: 20px;
+}
+.menu img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.menu a {
+    display: block;
+    font-size: 17px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    margin: 0px;
+    line-height: 35px;
+    color: #000;
+    text-decoration: none;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.menu p {
+    font-size: 13px;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    color: #000;
+    margin: 0;
+    line-height: 35px;
+    text-align: left;
+}
+.menu p > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu em {
+    position: relative;
+    width: 30px;
+    height: 25px;
+    background: url("/site/app/img/services.jpg") center left no-repeat;
+    background-size: 90%;
+    font-style: italic;
+}
+
+.footer {
+    position: relative;
+    background: #2e7297;
+    padding: 20px;
+}
+.footer .main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 727px;
+}
+.footer p {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'HelvetiThin';
+    font-weight: 100;
+    margin: 6px 0;
+    line-height: 100%;
+}
+.footer img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+.b-share {
+    font: 86%/1.4545em Arial,sans-serif;
+    display: inline-block;
+    padding: 1px 3px 1px 4px!important;
+    vertical-align: middle;
+}
+.b-share__handle {
+    float: left;
+    height: 16px;
+    padding: 5px 3px 5px 2px!important;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none!important;
+}
+.b-share-icon {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    padding: 0 !important;
+    vertical-align: top;
+    border: 0;
+    background: url("/site/app/img/icon.png") 0 99px no-repeat;
+}
+.b-share-icon_vkontakte, .b-share-icon_custom {
+    background-position: 0 0;
+}
+.b-share-icon_facebook {
+    background-position: 0 -68px;
+}
+.b-share-icon_twitter {
+    background-position: 0 -51px;
+}
+.b-share-icon_odnoklassniki {
+    background-position: 0 -170px;
+}
+.b-share-icon_moimir {
+    background-position: 0 -85px;
+}
+.b-share-icon_gplus {
+    background-position: 0 -426px;
+}
+
+.btn-big {
+    background: #1e8fc8;
+    border: none;
+    border-bottom: 2px solid #1378b7;
+    box-shadow: 2px 2px 3px #ccc;
+    margin-left: 5px;
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 10px;
+    color: white !Important;
+    text-decoration: none !important;
+    display: inline-block;
+    transition: color .1s ease;
+    font-weight: normal;
+    line-height: 20px;
+    cursor: pointer;
+}
+.btn-send {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.294);
+    border: 0;
+    height: 57px;
+    width: 351px;
+    outline: 0;
+    box-shadow: 2px 3.464px 8px 0px rgba(0, 1, 1, 0.157), inset 0px -2px 0px 0px rgba(0, 1, 1, 0.02);
+    border-radius: 3px;
+    background-color: #0aa245;
+    cursor: pointer;
+}
+.btn-close {
+    float: right;
+    cursor: pointer;
+    right: 10px;
+    outline: none;
+    font-weight: 900;
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    padding:6px;
+    position: absolute;
+    top: -10px;
+}
+.modal-inf:before {
+    content: "";
+    display: none;
+    background: rgb(54, 54, 54, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.opened:before {
+    display: block;
+}
+.opened .modal-dialog {
+    transform: translate(0, 0);
+    top: 20%;
+}
+.opened .modal-dialog-inf {
+    transform: translate(0, 0);
+    top: 20%;
+}
+.modal-dialog {
+    width: 400px;
+    padding: 20px 30px;
+    background-color: #1378b7;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    border: #333333 solid 0;
+    margin-left: -200px;
+    text-align:center;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    z-index: 11;
+    transform: translate(0, -500%);
+}
+.modal-body {
+    margin: 20px 0;
+}
+.modal-body input{
+    width: 341px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #5e5e5e;
+    font-family: 'HelvetiThin';
+    border: none;
+    outline: 0;
+    padding: 17px 0 17px 10px;
+    margin-bottom: 26px;
+}
+.modal-body ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+.modal-body li {
+    line-height: 20px;
+    text-align: left;
+}
+.modal-header,
+.modal-footer {
+    padding: 0;
+}
+.modal-header p {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'HelvetiThin';
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.modal-img {
+    width: 32%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    min-height: 30px;
+    padding: 0 10px;
+    margin-left: 0;
+}
+.modal-text {
+    width: 55%;
+    display: block;
+    float: left;
+    min-height: 30px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.btn-close-inf {
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    margin-top: -100px;
+    margin-right: -100px;
+    opacity: 1;
+    float: right;
+    
+}
+.modal-inf h4 {
+    font-size: 36px;
+    font-family: 'HelvetiThin';
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+}
+.modal-inf em {
+    font-size: 24px;
+    color: #2e84b0;
+    font-family: 'HelvetiThin';
+    font-weight: 600;
+    font-style: italic;
+}
+.modal-inf p {
+    font-size: 18px;
+    font-family: 'HelvetiThin';
+    margin: 20px 0;
+    line-height: 23px;
+    text-align: left;
+}
+.modal-dialog-inf {
+    background: url(/site/app/img/bg_img.jpg);
+    background-size: 50%;
+    width: 800px;
+    border: 2px solid #0aa245;
+    top: 80px;
+    padding: 30px;
+    position: fixed;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: -25%;
+    text-align:center;
+    left: 50%;
+    z-index: 11;
+    transform: translate(0, -500%);
+}
+.modal-inf-endocrin .modal-dialog-inf {
+    background: url(/site/app/img/bg_img.jpg);
+    background-size: 50%;
+    width: 1100px;
+    border: 2px solid #0aa245;
+    top: 60px;
+    padding: 30px;
+    position: fixed;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: -35%;
+    text-align:center;
+    left: 50%;
+    z-index: 11;
+}
+
+.modal-inf-ginec .modal-dialog-inf {
+    background: url(/site/app/img/bg_img.jpg);
+    background-size: 50%;
+    width: 1100px;
+    border: 2px solid #0aa245;
+    top: 70px;
+    padding: 30px;
+    position: fixed;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: -35%;
+    text-align:center;
+    left: 50%;
+    z-index: 11;
+}
+.modal-inf-ultra .modal-dialog-inf {
+    background: url(/site/app/img/bg_img.jpg);
+    background-size: 50%;
+    width: 1100px;
+    border: 2px solid #0aa245;
+    top: 70px;
+    padding: 30px;
+    position: fixed;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: -35%;
+    text-align:center;
+    left: 50%;
+    z-index: 11;
 }
